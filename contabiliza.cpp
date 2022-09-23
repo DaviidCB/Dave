@@ -3,19 +3,19 @@ using namespace std;
 
 int main()
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l="; cin>>l;
+	int DACB_i=0,DACB_l;
+	float DACB_x,DACB_s=0;
+	cout<<"ingrese el limite DACB_l="; cin>>DACB_l;
 	do{
 		
-	cout<<"ingrese el numero x="; cin>>x;
-	i=i+1;
-	s=s+x;
+	cout<<"ingrese el numero DACB&x="; cin>>DACB_x;
+	DACB_i=DACB_i+1;
+	DACB_s=DACB_s+DACB_x;
 
 
 
-	}while(i<l);
-	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	}while(DACB_i<DACB_l);
+	cout<<"Se ingresaron "<<DACB_l<<" numeros "<< "que sumaron "<<DACB_s<<endl;
 	return 0;
 
 
